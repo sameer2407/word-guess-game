@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Guess The word</h1>
+        <div class="content">
+                <div class="inputs">
+                    <input type="text" class="child" disabled>
+                    <input type="text" class="child" disabled>
+                    <input type="text" class="child" disabled>
+                    <input type="text" class="child" disabled>
+                    <input type="text" class="child" disabled>
+                    <input type="text" class="child" disabled>
+                </div>
+            
+            <div class="details">
+                <p class="hint"><span>Hint will be shown here</span></p>
+                <p class="guess-left">Remaining Gueses: <span>10</span></p>
+                <p class="wrong-letter">Wrong Letters: <span>a,b,c,d</span></p>
+                <p>Type in the Green Box</p>
+            </div>
+            <div class="input-letter">
+                <input  type="text" pattern="[A-Za-z]{1}" name="input-letter" id="input-letter" >
+
+            </div>
+            <div class="buttonn">SUBMIT</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
